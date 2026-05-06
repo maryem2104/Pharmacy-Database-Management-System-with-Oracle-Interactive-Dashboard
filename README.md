@@ -1,123 +1,89 @@
-PharmaCare – Pharmacy Management System
-Overview
+# 💊 PharmaCare – Pharmacy Management System
 
-PharmaCare is a full-stack pharmacy management platform designed to simplify and optimize pharmacy operations through a centralized multi-role system.
+<p align="center">
+  <img src="images/pharmcare-dashboard.png" width="900">
+</p>
 
-The application allows pharmacists, accountants, and sellers to work collaboratively on the same platform while maintaining secure role-based access and privileges.
+<p align="center">
+A modern multi-role pharmacy management platform built using React and Oracle Database.
+</p>
 
-The system provides real-time inventory management, sales tracking, order management, alerts, and financial monitoring through a modern responsive dashboard.
+---
 
-Features
-Authentication & Authorization
-Secure login system
-Role-based access control (RBAC)
-Separate privileges for:
-Pharmacist
-Accountant
-Seller
-Pharmacist Features
-Manage medicines and products
-Monitor stock availability
-Track expiration dates
-Receive low-stock alerts
-Manage suppliers
-Accountant Features
-Monitor payments and transactions
-Access financial records
-Generate accounting reports
-Track pharmacy revenues
-Seller Features
-Create and manage customer orders
-Process sales
-View product availability
-Manage customer interactions
-General Features
-Responsive dashboard
-Multi-user centralized platform
-Real-time inventory tracking
-Order and payment management
-Product expiration monitoring
-Alert system for critical products
-Archive system for old records
-Technologies Used
-Frontend
-React.js
-JavaScript
-HTML5
-CSS3
-Backend / Database
-Oracle Database
-Oracle SQL
-System Architecture
+# 📖 Overview
 
-The platform follows a client-server architecture:
+PharmaCare is a full-stack pharmacy management system designed to simplify and optimize pharmacy operations through a centralized digital platform.
 
-Frontend (React)→Backend/API→Oracle Database
-React handles the user interface and dashboard interactions
-Oracle Database manages persistent storage and relational data
-Different user roles interact with the same centralized database with controlled permissions
-Database Design
+The application allows multiple actors to work collaboratively on the same system while maintaining role-based access and privileges.
 
-The database contains several relational entities such as:
+The platform supports:
+- Pharmacists
+- Accountants
+- Sellers
 
-Users
-Roles
-Products
-Suppliers
-Orders
-Payments
-Alerts
-Archives
+Each user has secure and personalized access depending on their responsibilities.
 
-Relationships are managed using Oracle relational modeling and SQL constraints.
+---
 
-Security
-Authentication system
-Role-based authorization
-Restricted access depending on user role
-Secure database interaction
+# ✨ Features
 
-Objective
-The objective of PharmaCare is to digitalize pharmacy management processes and improve:
+## 🔐 Authentication & Authorization
+- Secure login system
+- Role-based access control
+- User privilege management
 
+---
 
-Operational efficiency
+## 💊 Pharmacist Features
+- Manage medicines and products
+- Monitor stock availability
+- Track expiration dates
+- Receive low-stock alerts
+- Manage suppliers
 
+---
 
-Data organization
+## 💰 Accountant Features
+- Monitor payments and transactions
+- Access financial records
+- Generate accounting reports
+- Track revenues and expenses
 
+---
 
-Inventory monitoring
+## 🛒 Seller Features
+- Create customer orders
+- Process sales
+- View product availability
+- Manage customer interactions
 
+---
 
-Financial tracking
+## 📊 Dashboard Features
+- Real-time statistics
+- Product monitoring
+- Daily sales overview
+- Alert management
+- Archive system
+- Responsive dashboard
 
+---
 
-Multi-user collaboration
+# 🛠️ Technologies Used
 
+## 🎨 Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
 
+## 🗄️ Database
+- Oracle Database
+- Oracle SQL
 
-Future Improvements
+---
 
+# 🏗️ System Architecture
 
-AI-based stock prediction
-
-
-Sales analytics dashboard
-
-
-Barcode scanning integration
-
-
-Cloud deployment
-
-
-Notification system
-
-
-Mobile application support
-
-
-
-Authors
-Developed as an academic/full-stack management project using React and Oracle Database technologies.
+```math
+Frontend (React) → Backend/API → Oracle Database
