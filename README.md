@@ -86,4 +86,6 @@ Each user has secure and personalized access depending on their responsibilities
 # 🏗️ System Architecture
 
 ```math
-Frontend (React) → Backend/API → Oracle Database
+<p align="center">
+  <img src="Gemini_Generated_Image_ (2).png" width="900">
+</p>
