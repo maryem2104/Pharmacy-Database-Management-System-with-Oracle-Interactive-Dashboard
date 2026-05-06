@@ -87,5 +87,5 @@ Each user has secure and personalized access depending on their responsibilities
 
 ```math
 <p align="center">
-  <img src="Gemini_Generated_Image_ (2).png" width="900">
+  <img src="C:\Users\lenovo\Downloads\Gemini_Generated_Image_ (2).png" width="900">
 </p>
